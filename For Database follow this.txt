@@ -1,0 +1,13 @@
+MySql code:
+
+Create a MySQL table:
+CREATE TABLE app_reviews (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    app_name VARCHAR(255),
+    review_count INT
+);
+
+Now, when you run the app.py file, you can access the web app by visiting 
+http://localhost:5000 in your web browser. Keep in mind that this is a simple 
+example, and you may need to implement actual API calls to Google Play Store or 
+Apple Store for real review counts.

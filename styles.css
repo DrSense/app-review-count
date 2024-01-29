@@ -1,0 +1,26 @@
+/* Add styles for the selected review container */
+.selected-review {
+    max-width: 400px;
+    margin-top: 20px;
+    float: right;
+}
+
+/* Add styles for the reviews container */
+.reviews-container {
+    float: left;
+    width: calc(100% - 420px);
+}
+
+/* Style for each review stack */
+.review-stack {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* Style for the selected review */
+.selected-review {
+    border: 2px solid #4CAF50;
+    padding: 15px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Reviews App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <label for="appName">Enter App Name:</label>
+        <input type="text" id="appName" placeholder="Enter app name">
+
+        <label for="platform">Select Platform:</label>
+        <select id="platform">
+            <option value="google_play">Google Play</option>
+            <option value="apple_store">Apple Store</option>
+        </select>
+
+        <label for="timeFilter">Select Time Filter:</label>
+        <select id="timeFilter">
+            <option value="all_time">All Time</option>
+            <option value="last_week">Last Week</option>
+            <option value="last_month">Last Month</option>
+        </select>
+
+        <button id="searchBtn">Search</button>
+
+        <div id="resultContainer">
+            <div id="reviewsList"></div>
+            <div id="selectedReview"></div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
